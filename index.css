@@ -1,0 +1,134 @@
+.body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.map-container {
+  position: relative;
+}
+
+.map-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  z-index: -1;
+}
+
+.map-button {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  cursor: pointer;
+  z-index: 1;
+  border: none;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: #fff;
+  background-color: transparent;
+}
+
+.map-button_opened {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+}
+
+.button__icon {
+  cursor: pointer;
+  z-index: 1;
+  border: none;
+  color: #fff;
+  background-color: #fff;
+  width: 10px;
+  height: 2px;
+  background-color: #fff;
+  margin-left: 9px;
+  margin-right: 15px;
+}
+
+.button__icon_close {
+  background-image: url('./images/plus.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+.map-button_green {
+  background-color: #6ABF4B;
+}
+
+.map-button_blue{
+  background-color: #3877EE;
+}
+
+.stadium {
+  top: 44.5%;
+  left: 35.8%;
+}
+
+.kafe {
+  top: 58.1%;
+  left: 56.3%;
+}
+
+.bridge {
+  left: 23.2%;
+  bottom: 30%;
+}
+
+.library {
+  top: 37.4%;
+  right: 38.1%;
+}
+
+.house {
+  top: 20.9%;
+  right: 26.4%;
+}
+
+.post {
+  top: 44%;
+  right: 24.2%;
+}
+
+.hospital {
+  bottom: 34.1%;
+  right: 29.9%;
+}
+
+.pharm {
+  bottom: 30.1%;
+  right: 15%;
+}
+
+.hotel {
+  bottom: 23%;
+  right: 40.2%;
+}
+
+.shop {
+  top: 26%;
+  left: 30.2%;
+}
+
+.text{
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Arial';
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.text_hidden {
+  display: none;
+}
