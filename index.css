@@ -88,32 +88,32 @@
 
 .library {
   top: 37.4%;
-  right: 38.1%;
+  left: 59.8%;
 }
 
 .house {
   top: 20.9%;
-  right: 26.4%;
+  left: 71.5%;
 }
 
 .post {
   top: 44%;
-  right: 24.2%;
+  left: 73.7%;
 }
 
 .hospital {
   bottom: 34.1%;
-  right: 29.9%;
+  left: 68%;
 }
 
 .pharm {
   bottom: 30.1%;
-  right: 15%;
+  left: 83%;
 }
 
 .hotel {
   bottom: 23%;
-  right: 40.2%;
+  left: 57.7%;
 }
 
 .shop {
